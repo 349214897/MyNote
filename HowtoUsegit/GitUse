@@ -1,0 +1,16 @@
+# first step creat local master
+1. load git bash
+2. use instruction git init then will appear .git
+3. git add file you think add it in origin(or use )
+4. git status show info has no commit to local master
+5. git commit to commit info to local master
+6. git commit -m "s" s is tell info
+# second step creat repository
+1. register git account
+2. new repository(1.use web 2.use git remote add)
+# third use ssh push origin
+1. use insruction ssh-keygen -t rsa -C "email@qq.com"
+2. land git web then get in settings then click SSH and GPG keys at the right of board
+3. copy the info of id_rsa.pub in text Editor SSH keys
+# forth push it in repository
+1. git push origin master
